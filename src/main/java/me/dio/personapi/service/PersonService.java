@@ -1,6 +1,7 @@
 package me.dio.personapi.service;
 
 
+import lombok.AllArgsConstructor;
 import me.dio.personapi.dto.request.PersonDTO;
 import me.dio.personapi.entity.Person;
 import me.dio.personapi.exception.PersonNotFoundException;
@@ -15,16 +16,12 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
+@AllArgsConstructor(onConstructor = @__(@Autowired))
 public class PersonService {
 
     private PersonRepository personRepository;
 
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
-
-    @Autowired
-    public PersonService(PersonRepository personrepository) {
-        this.personRepository = personrepository;
-    }
 
 
     public MessageResponseDTO createPerson(PersonDTO personDTO) {

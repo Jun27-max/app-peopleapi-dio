@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b0eac0e0-1e2e-4184-8a41-99556e38e07e" name="Default Changelist" comment="Correção do Erro java.lang.NullPointerException. O MapStruct foi atualizado para versão 1.4.2.Final">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/exception/PersonNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/personapi/mapper/PersonMapperTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/personapi/service/PersonServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/personapi/utils/PersonUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/me/dio/personapi/utils/PhoneUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/controller/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/service/PersonService.java" afterDir="false" />
     </list>
@@ -50,7 +54,7 @@
       <recent name="me.dio.personapi.dto" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSuccessSavedMessage">
     <configuration name="PersonController" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="me.dio.personapi.PersonapiApplication" />
       <module name="personapi" />
@@ -58,6 +62,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.dio.personapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.dio.personapi.service" />
+      <option name="MAIN_CLASS_NAME" value="me.dio.personapi.service.PersonServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonServiceTest.testGivenPersonDTOThenReturnSuccessSavedMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="personapi" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="me.dio.personapi.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="me.dio.personapi.service" />
+      <option name="MAIN_CLASS_NAME" value="me.dio.personapi.service.PersonServiceTest" />
+      <option name="METHOD_NAME" value="testGivenPersonDTOThenReturnSuccessSavedMessage" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.PersonController" />
+      <item itemvalue="JUnit.PersonServiceTest" />
+      <item itemvalue="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSuccessSavedMessage" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PersonServiceTest.testGivenPersonDTOThenReturnSuccessSavedMessage" />
+        <item itemvalue="JUnit.PersonServiceTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
