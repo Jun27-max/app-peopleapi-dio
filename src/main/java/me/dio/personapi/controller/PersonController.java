@@ -1,18 +1,30 @@
 package me.dio.personapi.controller;
 
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import me.dio.personapi.entity.Person;
+import me.dio.personapi.repositories.PersonRepository;
+import me.dio.personapi.response.MessageResponseDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/v1/people")
 public class PersonController {
 
-    @GetMapping
+    private PersonRepository personrepository;
 
-    public String getBook() {
-        return "API Test!";
+    @Autowired
+    public PersonController(PersonRepository personrepository) {
+        this.personrepository = personrepository;
+    }
+
+    @PostMapping
+    public MessageResponseDTO createPerson(@RequestBody Person person) {
+        Person savePerson = personrepository.save(person);
+        return MessageResponseDTO
+                .builder()
+                .message("Created person with ID" + savePerson.getId())
+                .build();
     }
 
 }
