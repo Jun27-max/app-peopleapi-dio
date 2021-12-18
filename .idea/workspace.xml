@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0eac0e0-1e2e-4184-8a41-99556e38e07e" name="Default Changelist" comment="Correção do Erro java.lang.NullPointerException. O MapStruct foi atualizado para versão 1.4.2.Final">
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/exception/PersonNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/personapi/controller/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/controller/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/dio/personapi/service/PersonService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/dio/personapi/service/PersonService.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
+  </component>
+  <component name="ProjectId" id="22RF0fGvOwjYwmRipjvzVWCyeQx" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="me.dio.personapi.exception" />
+      <recent name="me.dio.personapi.dto" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PersonController" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="me.dio.personapi.PersonapiApplication" />
+      <module name="personapi" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0eac0e0-1e2e-4184-8a41-99556e38e07e" name="Default Changelist" comment="" />
+      <created>1639792273775</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639792273775</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Foi modelado o domínio da aplicação e criado o Controller e o Repository">
+      <created>1639797070911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1639797070912</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Foi implementado a DTO e o MapStruct">
+      <created>1639840912892</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840912892</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Foi implementado a DTO e o MapStruct">
+      <created>1639840931711</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1639840931711</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Correção do Erro java.lang.NullPointerException. O MapStruct foi atualizado para versão 1.4.2.Final">
+      <created>1639842831991</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1639842831991</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Foi modelado o domínio da aplicação e criado o Controller e o Repository" />
+    <MESSAGE value="Foi implementado a DTO e o MapStruct" />
+    <MESSAGE value="Correção do Erro java.lang.NullPointerException. O MapStruct foi atualizado para versão 1.4.2.Final" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correção do Erro java.lang.NullPointerException. O MapStruct foi atualizado para versão 1.4.2.Final" />
+  </component>
+</project>
